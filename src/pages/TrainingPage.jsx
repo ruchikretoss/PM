@@ -7,21 +7,21 @@ const COURSES = [
   {
     id: "lash-training",
     title: "Eyelash Extensions Training",
-    subtitle: "Lash Styling & Application Mastery",
+    subtitle: "One on One Lash Training",
     image: "/lash_training_split.png",
     curriculum: [
-      "Standard Eyelash Application Techniques",
-      "Custom Lash Styling & Eye Mapping",
-      "Safety, Hygiene, & Sterilization Protocols",
-      "Lash Refills & Safe Removal Procedures"
+      "Day 1: Review manual & practice on mannequin",
+      "Day 2: Practice on live models (portfolio building)",
+      "Day 3: Optional client shadowing session",
+      "One-on-one personalized attention"
     ],
     included: [
-      "Premium Professional Eyelash Kit",
-      "Official Certification of Completion",
-      "Live Model Hands-on Practice",
-      "Lifetime Student Mentorship Support"
+      "Full Professional Lash Kit & Case",
+      "Practice Mannequin Head",
+      "Official Certificate of Completion",
+      "Ongoing Student Support & Mentorship"
     ],
-    tuition: "$650",
+    tuition: "$800",
     deposit: "$150",
   },
   {
@@ -31,39 +31,41 @@ const COURSES = [
     image: "/smp_treatment_close_up.png",
     curriculum: [
       "SMP Micro-pigmentation Dot Shading",
-      "Follicle Replication & Density Mapping",
+      "Hair Follicle Replication & Density Mapping",
+      "Needle Depth, Speed, & Safety Controls",
       "Symmetric Hairline Drafting & Design",
-      "Pigment Dilution & Custom Color Matching",
-      "Needle Depth, Speed, & Safety Controls"
+      "Guidance on obtaining a tattoo license"
     ],
     included: [
-      "SMP Pen Machine & Needle Set",
-      "Comprehensive Student Training Manual",
-      "Hands-on Latex & Live Model Shading",
-      "Certified SMP Artist Credentials"
+      "Full SMP Equipment Kit (machine & cartridges)",
+      "Reference Manual & Completion Certificate",
+      "1 Month support (2 models & 2 shadow sessions)",
+      "SMP Potential (1 client/wk): $2,000/wk ($96k/yr)",
+      "SMP Potential (2 clients/wk): $3,999/wk ($192k/yr)"
     ],
-    tuition: "$1,500",
+    tuition: "$2,999",
     deposit: "$300",
   },
   {
     id: "brows-training",
     title: "Powder Brows Training",
-    subtitle: "Ombre Shading & Symmetry Design",
+    subtitle: "Ombre Shading & Private Training",
     image: "/powder_brows_training_split.png",
     curriculum: [
-      "Ombre Powder Shading Tattoo Techniques",
-      "Facial Anatomy & Brow Mapping Outline",
-      "Color Theory & Pigment Selection",
-      "PMU Machine Speed & Hand Movement Controls",
-      "Sanitation, Sterilization, & Safety Laws"
+      "Brow mapping (sticky ruler & mapping thread)",
+      "Ombre Powder Shading & outline techniques",
+      "Color theory, product knowledge & pre-care",
+      "Machine speed, holding & pendulum motion",
+      "Nano Brows Option ($2,700)",
+      "Microblading Option (Contact for prices)"
     ],
     included: [
-      "Digital PMU Machine Included",
-      "Full Powder Brows Starter Kit",
-      "Practice Skins & Mapping Stencils",
-      "Powder Brows Artist Certificate"
+      "Wireless PMU machine, charger, & needles",
+      "Starter Kit (pigment, mapping tools, fake skin)",
+      "Official Manual & Framed Certificate",
+      "Ongoing support (shadow/work on models twice)"
     ],
-    tuition: "$1,200",
+    tuition: "$1,999",
     deposit: "$250",
   },
   {
@@ -72,20 +74,20 @@ const COURSES = [
     subtitle: "Full Color Lips Lip Blushing Artistry",
     image: "/lip_blush_training_split.png",
     curriculum: [
-      "Lip Blushing Shading & Lining",
-      "Symmetry Outlining & Lip Contouring",
-      "Pigment Mixing & Color Correction Theory",
-      "Needle Setup & Digital Machine Settings",
-      "Post-Procedure Care & Client Follow-up Support"
+      "Lip mapping, shaping, & outlining technique",
+      "Device settings, needle selection & speed",
+      "Color and custom pigment selection theory",
+      "Permanent makeup health & safety standards",
+      "Hands-on practice & live model demonstration"
     ],
     included: [
-      "Premium Lip Blushing Student Kit",
-      "Synthetic Practice Latex Mats",
-      "Professional Certificate of Completion",
-      "Ongoing Marketing & Business Guidance"
+      "PMU Machine, Charger, & Cartridge Needles",
+      "Starter Kit (manual, practice skin, pigments)",
+      "Official Certificate of Completion",
+      "Ongoing Support (2 models & 2 shadow sessions)"
     ],
-    tuition: "$1,200",
-    deposit: "$250",
+    tuition: "$1,300",
+    deposit: "$500",
   },
   {
     id: "eyeliner-training",
@@ -93,18 +95,19 @@ const COURSES = [
     subtitle: "Lashline Enhancement & Classic Wing Eyeliner",
     image: "/eyeliner_training_split.png",
     curriculum: [
-      "Lashline Enhancement & Eyeliner Tattooing",
-      "Needle Depth & Speed Controller Setup",
-      "Eyeliner Mapping & Face Structure Sync",
-      "Sterilization, Hygiene, & Clinic Safety"
+      "Lashline enhancement & eyeliner tattoo",
+      "Tattooed eyeliner theory & touch-up rules",
+      "Apparatus machine technique & workspace prep",
+      "Needle depth, angle, pressure & safety laws",
+      "Eye structure mapping & symmetry design"
     ],
     included: [
-      "Professional Eyeliner Shading Kit",
-      "Eyeliner Technique Training Manual",
-      "Eyeliner Artist Certificate of Mastery",
-      "Student Product Discounts & Support"
+      "Professional Kit (machine, needles, manual)",
+      "Eyeliner practice lids, mats & pigments",
+      "Live model hands-on & instructor demo",
+      "Ongoing support & studio use for 1 month"
     ],
-    tuition: "$1,100",
+    tuition: "$1,300",
     deposit: "$200",
   }
 ];
@@ -156,10 +159,10 @@ function TrainingPage({ onNavigate }) {
                 <button
                   key={course.id}
                   onClick={() => setActiveCourseId(course.id)}
-                  className={`snap-center shrink-0 w-[240px] lg:w-auto text-left relative h-[160px] rounded-2xl overflow-hidden border transition-all duration-500 hover:scale-[1.03] cursor-pointer group flex flex-col justify-end p-5 ${
+                  className={`snap-center shrink-0 w-[240px] lg:w-auto text-left relative h-[160px] rounded-2xl overflow-hidden border transition-all duration-500 cursor-pointer group flex flex-col justify-end p-5 ${
                     isActive 
                       ? "border-[#F894FF] shadow-[0_0_25px_rgba(248,148,255,0.15)] bg-[#121216]" 
-                      : "border-white/5 hover:border-white/20 bg-[#0B0B0E]"
+                      : "border-white/5 "
                   }`}
                 >
                   {/* Background Image with blur highlight */}

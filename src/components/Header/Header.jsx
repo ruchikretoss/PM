@@ -22,6 +22,7 @@ const TRAINING_DROPDOWN = [
 ];
 
 const INFO_DROPDOWN = [
+    { name: "Membership Saving Programs", link: "/membership" },
     { name: "Consent Forms", link: "/consent-forms" },
     { name: "Book a Party", link: "https://thepermanentmakeupstudios.com/book-a-party/" },
     { name: "Store Policy", link: "https://thepermanentmakeupstudios.com/store-policy/" },
@@ -65,6 +66,8 @@ function Header({ currentPage, onNavigate }) {
             onNavigate("gallery-page");
         } else if (targetLink === "/consent-forms") {
             onNavigate("consent-forms-page");
+        } else if (targetLink === "/membership") {
+            onNavigate("membership-page");
         } else if (targetLink === "/training-courses" || targetLink.startsWith("/training-courses#")) {
             const anchor = targetLink.includes("#") ? targetLink.split("#")[1] : "";
             onNavigate("training-page", anchor);
@@ -239,6 +242,7 @@ function Header({ currentPage, onNavigate }) {
                                 </li>
 
                                 <li><a href="/gallery" onClick={(e) => handleNavClick(e, "/gallery")} className="hdr-nav-link no-underline font-bold text-[12px] max-[1199px]:text-[11px] tracking-[1px] whitespace-nowrap cursor-pointer flex items-center gap-1 py-[10px] transition-colors duration-300" style={{ fontFamily: "var(--font-accent)", color: "var(--text-light)" }}>GALLERY</a></li>
+                                <li><a href="/membership" onClick={(e) => handleNavClick(e, "/membership")} className="hdr-nav-link no-underline font-bold text-[12px] max-[1199px]:text-[11px] tracking-[1px] whitespace-nowrap cursor-pointer flex items-center gap-1 py-[10px] transition-colors duration-300" style={{ fontFamily: "var(--font-accent)", color: "var(--text-light)" }}>MEMBERSHIPS</a></li>
                                 <li><a href="https://chat.thepermanentmakeupstudios.com/" className="hdr-nav-link no-underline font-bold text-[12px] max-[1199px]:text-[11px] tracking-[1px] whitespace-nowrap cursor-pointer flex items-center gap-1 py-[10px] transition-colors duration-300" style={{ fontFamily: "var(--font-accent)", color: "var(--text-light)" }}>CONTACT US</a></li>
                             </ul>
                         </nav>
@@ -321,6 +325,7 @@ function Header({ currentPage, onNavigate }) {
 
 
                             <li><a href="/gallery" onClick={(e) => handleNavClick(e, "/gallery")} className="hdr-mob-link no-underline font-bold text-[14px] block py-1 transition-colors duration-200" style={{ fontFamily: "var(--font-accent)", color: "var(--text-light)" }}>GALLERY</a></li>
+                            <li><a href="/membership" onClick={(e) => handleNavClick(e, "/membership")} className="hdr-mob-link no-underline font-bold text-[14px] block py-1 transition-colors duration-200" style={{ fontFamily: "var(--font-accent)", color: "var(--text-light)" }}>MEMBERSHIPS</a></li>
                             <li><a href="https://chat.thepermanentmakeupstudios.com/" onClick={() => setIsMobileMenuOpen(false)} className="hdr-mob-link no-underline font-bold text-[14px] block py-1 transition-colors duration-200" style={{ fontFamily: "var(--font-accent)", color: "var(--text-light)" }}>CONTACT US</a></li>
 
                             <li className="h-px my-[10px]" style={{ backgroundColor: "rgba(255,255,255,0.08)" }} />

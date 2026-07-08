@@ -4,6 +4,7 @@ const QUICK_LINKS = [
     { name: "Home", link: "/" },
     { name: "About", link: "/about" },
     { name: "Services", link: "/services" },
+    { name: "Memberships", link: "/membership" },
     { name: "Pricing", link: "#pricing" },
     { name: "Training Courses", link: "#training-courses" },
     { name: "Book Now", link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" },
@@ -45,6 +46,8 @@ function Footer({ onNavigate }) {
             onNavigate("about");
         } else if (link === "/services") {
             onNavigate("services");
+        } else if (link === "/membership") {
+            onNavigate("membership-page");
         } else if (link === "/scalp-micropigmentation" || link === "/smp") {
             onNavigate("smp-page");
         } else if (link === "/scar-camouflage-tattoo" || link === "/scar-camouflage") {

@@ -9,6 +9,7 @@ import MicroneedlingPage from "./pages/MicroneedlingPage";
 import GalleryPage from "./pages/GalleryPage";
 import ConsentFormsPage from "./pages/ConsentFormsPage";
 import TrainingPage from "./pages/TrainingPage";
+import MembershipPage from "./pages/MembershipPage";
 
 function getPageFromPath(pathname) {
   if (pathname === "/about") return "about";
@@ -20,6 +21,7 @@ function getPageFromPath(pathname) {
   if (pathname === "/gallery") return "gallery-page";
   if (pathname === "/consent-forms" || pathname === "/forms") return "consent-forms-page";
   if (pathname === "/training-courses" || pathname === "/training") return "training-page";
+  if (pathname === "/membership" || pathname === "/membership-saving-programs") return "membership-page";
   return "home";
 }
 
@@ -60,6 +62,7 @@ function App() {
     else if (page === "gallery-page") path = "/gallery";
     else if (page === "consent-forms-page") path = "/consent-forms";
     else if (page === "training-page") path = anchor ? `/training-courses#${anchor}` : "/training-courses";
+    else if (page === "membership-page") path = "/membership";
 
     window.history.pushState({}, "", path);
     setCurrentPath(path);
@@ -109,6 +112,8 @@ function App() {
         <ConsentFormsPage onNavigate={navigateTo} />
       ) : currentPage === "training-page" ? (
         <TrainingPage onNavigate={navigateTo} />
+      ) : currentPage === "membership-page" ? (
+        <MembershipPage onNavigate={navigateTo} />
       ) : (
         <ServicesPage key={currentPath} onNavigate={navigateTo} />
       )}
