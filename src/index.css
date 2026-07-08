@@ -1,0 +1,220 @@
+@import "tailwindcss";
+
+:root {
+  --primary-pink: #F894FF;
+  --primary-pink-hover: #ff5ef1;
+  --primary-pink-glow: rgba(248, 148, 255, 0.4);
+
+  --bg-dark: #0B0B0E;
+  --bg-dark-purple: linear-gradient(135deg, #0B0B0E 0%, #1A0A26 100%);
+  --bg-light: #FFFFFF;
+  --bg-cream: #FAF5EA;
+  --bg-gradient: linear-gradient(180deg, #0a0a0a 0%, #ffe7e8 -0.888779%, #ffffff 50.69964791911167%, #ffe7e8 96.22641509433963%, #0a0a0a 200%);
+
+  --text-dark: #0F0F12;
+  --text-light: #FAF5EA;
+  --text-white: #ffffff;
+  --text-muted-dark: #6B7280;
+  --text-muted-light: #9CA3AF;
+
+  --border-light: rgba(0, 0, 0, 0.06);
+  --border-dark: rgba(255, 255, 255, 0.06);
+  --border-pink: rgba(248, 148, 255, 0.25);
+
+  --shadow-light: 0 10px 30px rgba(0, 0, 0, 0.04);
+  --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.45);
+
+  --font-title: 'Staatliches', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-accent: 'Roboto', sans-serif;
+
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-title);
+  font-weight: 400;
+  /* letter-spacing: 1.5px; */
+  margin: 0;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Buttons */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-pink);
+  color: var(--bg-dark);
+  font-family: var(--font-accent);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 32px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-pink);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-pink-hover);
+  border-color: var(--primary-pink-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 0 18px var(--primary-pink-glow);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: var(--primary-pink);
+  font-family: var(--font-accent);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 12px 32px;
+  border-radius: 4px;
+  border: 2px solid var(--primary-pink);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-pink);
+  color: var(--bg-dark);
+  transform: translateY(-3px);
+  box-shadow: 0 0 18px var(--primary-pink-glow);
+}
+
+/* Color overrides for text in light/cream sections */
+.info-boxes-section,
+.pricing-section,
+.eyelash-services-section,
+.about-section,
+.faq-section {
+  color: var(--text-dark);
+}
+
+.info-boxes-section .section-subtitle,
+.pricing-section .section-subtitle,
+.eyelash-services-section .section-subtitle,
+.about-section .section-subtitle,
+.faq-section .section-subtitle {
+  color: var(--text-muted-dark);
+}
+
+.info-boxes-section .section-title,
+.pricing-section .section-title,
+.eyelash-services-section .section-title,
+.about-section .section-title,
+.faq-section .section-title {
+  color: var(--text-dark);
+}
+
+.info-boxes-section .section-description,
+.pricing-section .section-description,
+.eyelash-services-section .section-description,
+.about-section .section-description,
+.faq-section .section-description,
+.faq-section .faq-description {
+  color: var(--text-muted-dark);
+}
+
+/* Color overrides for text in dark sections (cream/light color headings) */
+.specialities-section .section-title,
+.training-section .section-title {
+  color: var(--text-light) !important;
+}
+
+.specialities-section .section-subtitle,
+.training-section .section-subtitle {
+  color: var(--text-muted-light) !important;
+}
+
+.specialities-section .section-description,
+.training-section .section-description {
+  color: var(--text-muted-light) !important;
+}
+
+/* Global Section Title Size Rules */
+.section-title {
+  font-size: 48px !important;
+  line-height: 1.1 !important;
+  letter-spacing: 1.5px !important;
+  margin-bottom: 12px !important;
+  text-transform: uppercase !important;
+  font-family: var(--font-title) !important;
+}
+
+@media (max-width: 575px) {
+  .section-title {
+    font-size: 34px !important;
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
