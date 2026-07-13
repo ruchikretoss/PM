@@ -27,15 +27,15 @@ function TrainingCourses() {
             <style>{`
                 .tr-card:hover {
                     transform: translateY(-8px);
-                    border-color: rgba(248, 148, 255, 0.4) !important;
-                    box-shadow: 0 10px 30px rgba(248, 148, 255, 0.1) !important;
+                    border-color: rgba(197, 189, 182, 0.4) !important;
+                    box-shadow: 0 10px 30px rgba(197, 189, 182, 0.1) !important;
                 }
                 .tr-card:hover .tr-overlay {
-                    background: linear-gradient(180deg, rgba(248,148,255,0.05) 0%, rgba(7,7,8,0.95) 100%);
+                    background: linear-gradient(180deg, rgba(197,189,182,0.05) 0%, rgba(7,7,8,0.95) 100%);
                 }
                 .tr-card:hover .tr-btn {
-                    background-color: var(--primary-pink) !important;
-                    color: var(--bg-dark) !important;
+                    background-color: var(--primary-pink-hover) !important;
+                    color: var(--primary-pink) !important;
                     border-color: var(--primary-pink) !important;
                     box-shadow: 0 0 15px var(--primary-pink-glow) !important;
                 }
@@ -100,7 +100,7 @@ function TrainingCourses() {
 
                     {/* Footer CTA */}
                     <div className="text-center">
-                        <a href="https://thepermanentmakeupstudios.com/training-courses/" className="btn-primary">
+                        <a href="https://thepermanentmakeupstudios.com/training-courses/" className="btn-primary" style={{ backgroundColor: "#fff", color: "#070708" }}>
                             BROWSE ALL COURSES
                             <svg className="arrow-icon" viewBox="0 0 256 256" width="20" height="20" fill="currentColor">
                                 <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z" />

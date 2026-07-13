@@ -53,7 +53,7 @@ function AboutUs() {
                         our Frose made fresh daily or request a glass of Prosecco or tea while waiting for your technician.
                         We also hold special events per advance notice whether you are looking for a space to hold a
                         bachelorette party or planning a baby shower ....we will handle everything so you can sit back and get pampered.
-                        We can&apos;t wait to make you feel special and beautiful 💜
+                        We can&apos;t wait to make you feel special and beautiful 💖
                     </p>
 
                     {/* Founder */}

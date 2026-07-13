@@ -99,7 +99,7 @@ function Header({ currentPage, onNavigate }) {
                 .hdr-ann-btn:hover { background-color: var(--primary-pink-hover) !important; box-shadow: 0 0 10px var(--primary-pink-glow); }
 
                 /* Desktop nav link hover */
-                .hdr-nav-link:hover { color: var(--primary-pink) !important; }
+                .hdr-nav-link:hover { color: var(--primary-pink-hover) !important; }
 
                 /* Dropdown arrow */
                 .hdr-has-arrow::after { content: "▾"; font-size: 10px; color: var(--text-muted-light); transition: transform 0.3s ease; margin-left: 4px; }
@@ -112,7 +112,7 @@ function Header({ currentPage, onNavigate }) {
                     width: 250px;
                     background-color: rgba(18,18,22,0.95);
                     backdrop-filter: blur(16px);
-                    border: 1px solid rgba(248,148,255,0.15);
+                    border: 1px solid rgba(197,189,182,0.15);
                     border-radius: 6px;
                     padding: 16px 0;
                     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
@@ -124,13 +124,13 @@ function Header({ currentPage, onNavigate }) {
 
                 /* Dropdown links */
                 .hdr-dropdown-link { display: block; font-size: 13px; font-weight: 500; color: var(--text-light); padding: 8px 24px; transition: all 0.2s ease; text-decoration: none; text-align: left; }
-                .hdr-dropdown-link:hover { background-color: rgba(248,148,255,0.08); color: var(--primary-pink) !important; padding-left: 28px; }
+                .hdr-dropdown-link:hover { background-color: rgba(197,189,182,0.08); color: var(--primary-pink) !important; padding-left: 28px; }
 
                 /* Financing btn hover */
-                .hdr-financing-btn:hover { background-color: var(--primary-pink-hover) !important; box-shadow: 0 0 12px var(--primary-pink-glow); }
+                .hdr-financing-btn:hover { background-color: #ffffff !important; color: #202020 !important; box-shadow: 0 0 12px rgba(255, 255, 255, 0.2); }
 
                 /* Phone card hover */
-                .hdr-phone-card:hover { border-color: var(--primary-pink) !important; color: var(--primary-pink) !important; }
+                .hdr-phone-card:hover { border-color: var(--primary-pink-hover) !important; background:var(--primary-pink-hover); color: var(--bg-dark) !important; }
 
                 /* Mobile hamburger bars */
                 .hdr-bar { width: 100%; height: 2px; border-radius: 1px; transition: all 0.3s ease; }
@@ -139,7 +139,7 @@ function Header({ currentPage, onNavigate }) {
                 .hdr-hamburger.active .hdr-bar:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
                 /* Mobile drawer */
-                .hdr-drawer { position: fixed; top: 0; right: -100%; width: 300px; height: 100vh; background-color: var(--bg-dark); border-left: 1px solid rgba(248,148,255,0.1); padding: 80px 24px 40px; z-index: 999; overflow-y: auto; transition: right 0.4s cubic-bezier(0.4,0,0.2,1); box-shadow: -10px 0 30px rgba(0,0,0,0.5); }
+                .hdr-drawer { position: fixed; top: 0; right: -100%; width: 300px; height: 100vh; background-color: var(--bg-dark); border-left: 1px solid rgba(197,189,182,0.1); padding: 80px 24px 40px; z-index: 999; overflow-y: auto; transition: right 0.4s cubic-bezier(0.4,0,0.2,1); box-shadow: -10px 0 30px rgba(0,0,0,0.5); }
                 .hdr-drawer.open { right: 0; }
 
                 /* Mobile nav links hover */
@@ -174,7 +174,7 @@ function Header({ currentPage, onNavigate }) {
                             target="_blank"
                             rel="noreferrer"
                             className="hdr-ann-btn font-bold uppercase text-[11px] px-3 py-1 rounded no-underline transition-all duration-300"
-                            style={{ backgroundColor: "var(--primary-pink)", color: "#000000", letterSpacing: "0.5px" }}
+                            style={{ backgroundColor: "var(--primary-pink-hover)", color: "#000000", letterSpacing: "0.5px" }}
                         >
                             Book Now
                         </a>
@@ -254,16 +254,16 @@ function Header({ currentPage, onNavigate }) {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="hdr-financing-btn no-underline font-bold text-[11px] tracking-[0.5px] px-[18px] max-[1199px]:px-3 py-[10px] max-[1199px]:py-2 rounded whitespace-nowrap transition-all duration-300"
-                                style={{ backgroundColor: "var(--primary-pink)", color: "#000000", fontFamily: "var(--font-accent)" }}
+                                style={{ backgroundColor: "var(--primary-pink-hover)", color: "var(--primary-pink)", fontFamily: "var(--font-accent)" }}
                             >
                                 WE OFFER FINANCING!
                             </a>
                             <a
                                 href="tel:7277713895"
-                                className="hdr-phone-card flex items-center gap-2 border border-white/15 px-[14px] max-[1199px]:px-[10px] py-2 max-[1199px]:py-[6px] rounded no-underline font-bold text-[12px] whitespace-nowrap transition-all duration-300"
-                                style={{ fontFamily: "var(--font-accent)", color: "var(--text-light)" }}
+                                className="hdr-phone-card flex items-center gap-2 border border-white px-[14px] max-[1199px]:px-[10px] py-2 max-[1199px]:py-[6px] rounded no-underline font-bold text-[12px] whitespace-nowrap transition-all duration-300"
+                                style={{ fontFamily: "var(--font-accent)", color: "var(--primary-pink-hover)" }}
                             >
-                                <Phone size={14} className="text-[var(--primary-pink)]" />
+                                <Phone size={14} className="" />
                                 <span>+1 (727) 771-3895</span>
                             </a>
                         </div>
@@ -336,7 +336,7 @@ function Header({ currentPage, onNavigate }) {
                                     target="_blank"
                                     rel="noreferrer"
                                     className="hdr-financing-btn block text-center w-full p-3 rounded font-bold text-[11px] no-underline transition-all duration-300"
-                                    style={{ backgroundColor: "var(--primary-pink)", color: "#000000", fontFamily: "var(--font-accent)" }}
+                                    style={{ backgroundColor: "var(--primary-pink)", color: "#ffffff", fontFamily: "var(--font-accent)" }}
                                 >
                                     WE OFFER FINANCING!
                                 </a>

@@ -113,8 +113,8 @@ function MicroneedlingPage({ onNavigate }) {
               {/* Content (Dark text on pink/white background) */}
               <div className="lg:col-span-7 text-left space-y-6">
                 <div className="flex items-center gap-2">
-                  <div className="h-[2px] w-8 bg-[#D946EF]" />
-                  <span className="text-xs font-bold uppercase tracking-[2.5px] text-[#D946EF]">Premium Skincare</span>
+                  <div className="h-[2px] w-8 bg-[#F894FF]" />
+                  <span className="text-xs font-bold uppercase tracking-[2.5px] text-[#F894FF]">Premium Skincare</span>
                 </div>
                 <h2
                   className="text-3xl md:text-5xl uppercase text-[#0F0F12] leading-tight"
@@ -182,7 +182,7 @@ function MicroneedlingPage({ onNavigate }) {
               <div className="max-w-xl space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-[#F894FF]/10 flex items-center justify-center border border-[#F894FF]/25">
-                    <UserCheck className="w-5 h-5 text-[#D946EF]" />
+                    <UserCheck className="w-5 h-5 text-[#F894FF]" />
                   </div>
                   <h3
                     className="text-2xl md:text-3xl uppercase text-[#0F0F12] font-bold"
@@ -236,7 +236,7 @@ function MicroneedlingPage({ onNavigate }) {
             {/* Step 1: Pre-Care (Pink & White Highlight Card) */}
             <div className="relative group">
               {/* Step indicator (Pink with white text) */}
-              <div className="absolute -left-[51px] top-0 w-9 h-9 rounded-full bg-[#D946EF] border-2 border-white flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-105 z-10">
+              <div className="absolute -left-[51px] top-0 w-9 h-9 rounded-full bg-[#F894FF] border-2 border-white flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-105 z-10">
                 <span className="text-xs font-bold text-white" style={{ fontFamily: "var(--font-title)" }}>01</span>
               </div>
 
@@ -244,7 +244,7 @@ function MicroneedlingPage({ onNavigate }) {
                 className="border border-black/[0.03] rounded-3xl p-6 sm:p-8 text-[#0F0F12] shadow-xl shadow-[#F894FF]/5"
                 style={{ background: "linear-gradient(135deg, #ffe7e8 0%, #ffffff 100%)" }}
               >
-                <span className="inline-block px-2.5 py-0.5 bg-[#F894FF]/15 border border-[#F894FF]/30 rounded-md text-[10px] font-bold text-[#D946EF] uppercase tracking-wider mb-3">
+                <span className="inline-block px-2.5 py-0.5 bg-[#F894FF]/15 border border-[#F894FF]/30 rounded-md text-[10px] font-bold text-[#F894FF] uppercase tracking-wider mb-3">
                   Pre-Care
                 </span>
                 <h4 className="font-bold text-[#0F0F12] text-md uppercase mb-4 tracking-wide" style={{
@@ -262,7 +262,7 @@ function MicroneedlingPage({ onNavigate }) {
                   ].map((item, idx) => (
                     <div key={idx} className="flex gap-2.5 items-start">
                       <div className="w-4 h-4 rounded-full bg-[#F894FF]/25 flex items-center justify-center shrink-0 mt-0.5 border border-[#F894FF]/30">
-                        <Check className="w-2.5 h-2.5 text-[#D946EF]" />
+                        <Check className="w-2.5 h-2.5 text-[#F894FF]" />
                       </div>
                       <span className="text-xs text-gray-700 leading-relaxed font-semibold">{item}</span>
                     </div>
@@ -294,7 +294,7 @@ function MicroneedlingPage({ onNavigate }) {
             {/* Step 3: Post-Care (Pink & White Highlight Card) */}
             <div className="relative group">
               {/* Step indicator (Pink with white text) */}
-              <div className="absolute -left-[51px] top-0 w-9 h-9 rounded-full bg-[#D946EF] border-2 border-white flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-105 z-10">
+              <div className="absolute -left-[51px] top-0 w-9 h-9 rounded-full bg-[#F894FF] border-2 border-white flex items-center justify-center shadow-lg transition-transform duration-300 group-hover:scale-105 z-10">
                 <span className="text-xs font-bold text-white" style={{ fontFamily: "var(--font-title)" }}>03</span>
               </div>
 
@@ -302,7 +302,7 @@ function MicroneedlingPage({ onNavigate }) {
                 className="border border-black/[0.03] rounded-3xl p-6 sm:p-8 text-[#0F0F12] shadow-xl shadow-[#F894FF]/5"
                 style={{ background: "linear-gradient(135deg, #ffe7e8 0%, #ffffff 100%)" }}
               >
-                <span className="inline-block px-2.5 py-0.5 bg-[#F894FF]/15 border border-[#F894FF]/30 rounded-md text-[10px] font-bold text-[#D946EF] uppercase tracking-wider mb-3">
+                <span className="inline-block px-2.5 py-0.5 bg-[#F894FF]/15 border border-[#F894FF]/30 rounded-md text-[10px] font-bold text-[#F894FF] uppercase tracking-wider mb-3">
                   Post-Care
                 </span>
                 <h4 className="font-bold text-[#0F0F12] text-md uppercase mb-4 tracking-wide" style={{ marginBottom: "10px" }}>Post Treatment Instructions</h4>

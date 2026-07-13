@@ -12,23 +12,15 @@ const QUICK_LINKS = [
 ];
 
 const SERVICES_LINKS = [
-    { name: "Classic Eyelash Extensions", link: "/services/classicextensions" },
-    { name: "Hybrid Eyelash Extensions", link: "/services/hybridextensions" },
-    { name: "Volume Eyelash Extensions", link: "/services/volumeextensions" },
-    { name: "Lash Lift & Tint", link: "/services/lashliftandtint" },
-    { name: "Eyebrow Lamination", link: "/services/eyebrowlamination" },
-    { name: "SMP (Scalp Micropigmentation)", link: "/scalp-micropigmentation" },
+    { name: "All Services", link: "/services/all" },
+    { name: "Eyelash Extensions", link: "/services/eyelash-extensions" },
+    { name: "Lash Lift & Tint", link: "/services/lash-lift-tint" },
+    { name: "Brow Services", link: "/services/brow-services" },
+    { name: "Lip Blush", link: "/services/lip-blush" },
+    { name: "SMP & Facials", link: "/scalp-micropigmentation" },
     { name: "Scar Camouflage", link: "/scar-camouflage-tattoo" },
     { name: "Microneedling", link: "/microneedling" },
-    { name: "Sugaring / Waxing", link: "/services/sugaring" },
-    { name: "Powder Brows", link: "/services/powderbrows" },
-    { name: "Lip Blushing", link: "/services/lipblush" },
-    { name: "Semi-Permanent Eyeliner", link: "/services/eyeliner" },
-    { name: "Cheek Tint Tattoo", link: "/services/cheekmakeup" },
-    { name: "Add-ons Services", link: "/services/addons" },
-    { name: "Microblading", link: "/services/microblading" },
-    { name: "Combination Brows", link: "/services/combinationbrows" },
-    { name: "Nano Brows", link: "/services/nanobrows" }
+    { name: "Spray Tans / Waxing", link: "/services/spray-tans-waxing" }
 ];
 
 function Footer({ onNavigate }) {
@@ -72,17 +64,17 @@ function Footer({ onNavigate }) {
         <>
             <style>{`
                 .footer-social-link:hover {
-                    background-color: var(--primary-pink) !important;
-                    color: var(--text-dark) !important;
+                    background-color: #ffffff !important;
+                    color: #202020 !important;
                     transform: translateY(-3px);
                 }
                 .footer-nav-link:hover {
-                    color: var(--primary-pink) !important;
+                    color: #ffffff !important;
                 }
             `}</style>
 
             <footer
-                className="w-full border-t border-[rgba(248,148,255,0.2)]"
+                className="w-full border-t border-[rgba(197,189,182,0.2)]"
                 style={{
                     backgroundColor: "var(--bg-dark)",
                     color: "rgba(255,255,255,0.7)",
@@ -98,7 +90,7 @@ function Footer({ onNavigate }) {
                             className="font-bold text-[14px] tracking-[2px] block mb-2"
                             style={{
                                 fontFamily: "var(--font-accent)",
-                                color: "var(--primary-pink)",
+                                color: "var(--text-white)",
                             }}
                         >
                             GET IN TOUCH
@@ -116,7 +108,7 @@ function Footer({ onNavigate }) {
                             Feel free to reach out to us with your inquiries through either phone or email.
                             We are here to provide you with the information you need.
                         </p>
-                        <a href="https://chat.thepermanentmakeupstudios.com/" className="btn-secondary">
+                        <a href="https://chat.thepermanentmakeupstudios.com/" className="btn-secondary !text-white !border-white hover:!bg-white hover:!text-[#202020] transition-colors duration-300">
                             CHAT WITH US
                         </a>
                     </div>
@@ -261,10 +253,10 @@ function Footer({ onNavigate }) {
                             Contact Info
                         </h3>
                         {[
-                            { icon: <MapPin size={18} className="text-[var(--primary-pink)] shrink-0" />, text: "27001 US Hwy N suite 1015 (Next to Dillards on the 1st floor) Clearwater, Florida 33761" },
-                            { icon: <Phone size={18} className="text-[var(--primary-pink)] shrink-0" />, text: "727-771-3895" },
-                            { icon: <Mail size={18} className="text-[var(--primary-pink)] shrink-0" />, text: "thepermanentmakeupstudios@gmail.com" },
-                            { icon: <Clock size={18} className="text-[var(--primary-pink)] shrink-0" />, text: <>Mon - Sat: 10AM - 7PM<br />Sun: 12PM - 5PM</> }
+                            { icon: <MapPin size={18} className="text-white shrink-0" />, text: "27001 US Hwy N suite 1015 (Next to Dillards on the 1st floor) Clearwater, Florida 33761" },
+                            { icon: <Phone size={18} className="text-white shrink-0" />, text: "727-771-3895" },
+                            { icon: <Mail size={18} className="text-white shrink-0" />, text: "thepermanentmakeupstudios@gmail.com" },
+                            { icon: <Clock size={18} className="text-white shrink-0" />, text: <>Mon - Sat: 10AM - 7PM<br />Sun: 12PM - 5PM</> }
                         ].map(({ icon, text }, idx) => (
                             <div key={idx} className="flex items-start gap-3">
                                 {icon}

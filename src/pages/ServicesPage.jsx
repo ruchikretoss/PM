@@ -11,7 +11,7 @@ const SERVICES = [
     category: "Eyelash Extensions",
     name: "CLASSIC EYELASH EXTENSIONS",
     image: "/classic_eyelash_extensions.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Discover timeless elegance with our Classic Eyelash Extensions. In this meticulously crafted service, individual lash extensions are delicately applied to enhance your natural beauty. The result is a classic, sophisticated look that amplifies the allure of your eyes, leaving you with lashes that are seamlessly blended, fuller, and enduring.",
     items: [
@@ -24,7 +24,7 @@ const SERVICES = [
     category: "Eyelash Extensions",
     name: "HYBRID EYELASH EXTENSIONS",
     image: "/hybrid_eyelash_extensions.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Experience the perfect fusion of volume and texture with our Hybrid Eyelash Extensions. This dynamic service combines classic and volume lash techniques, resulting in a harmonious blend of fullness and definition. Our Hybrid Extensions provide a unique balance, ensuring your lashes are both dynamic and elegantly refined.",
     items: [
@@ -37,7 +37,7 @@ const SERVICES = [
     category: "Eyelash Extensions",
     name: "VOLUME EYELASH EXTENSIONS",
     image: "/volume_eyelash_extensions.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Experience the epitome of lash luxury with our Volume Eyelash Extensions. This advanced technique involves the meticulous application of multiple lightweight extensions per natural lash, creating a plush, voluminous effect. Our Volume Extensions provide a glamorous and full-bodied finish.",
     items: [
@@ -50,7 +50,7 @@ const SERVICES = [
     category: "Lash Lift & Tint",
     name: "LASH LIFT & TINT",
     image: "/service_lashes.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Reveal the natural beauty of your lashes with our Lash Lift and Tint service. This transformative treatment lifts and curls your natural lashes, adding length, definition, and a rich tint that darkens and enhances for a wide-eyed, mascara-free look that lasts.",
     items: [
@@ -64,7 +64,7 @@ const SERVICES = [
     category: "Brow Services",
     name: "POWDER BROWS",
     image: "/powder_brows_before.png",
-    fallbackGradient: "linear-gradient(135deg,#1a0828 0%,#2a0a3a 100%)",
+    fallbackGradient: "linear-gradient(135deg,#202020 0%,#343434 100%)",
     description:
       "Achieve soft, defined brows with our Powder Brows service. Using a gentle shading technique, we create a filled-in, powdered effect that enhances your natural brow shape and adds depth and dimension. Perfect, flawless brows every morning.",
     items: [
@@ -77,7 +77,7 @@ const SERVICES = [
     category: "Brow Services",
     name: "MICROBLADING",
     image: "/powder_brows_after.png",
-    fallbackGradient: "linear-gradient(135deg,#1a0828 0%,#2a0a3a 100%)",
+    fallbackGradient: "linear-gradient(135deg,#202020 0%,#343434 100%)",
     description:
       "Experience the precision of our Microblading service. Meticulously crafting semi-permanent hair-like strokes, we define and enhance your brows to look natural and full. Say goodbye to daily brow pencils and enjoy perfectly shaped brows.",
     items: [
@@ -90,7 +90,7 @@ const SERVICES = [
     category: "Brow Services",
     name: "COMBINATION BROWS",
     image: "/service_brows.png",
-    fallbackGradient: "linear-gradient(135deg,#1a0828 0%,#2a0a3a 100%)",
+    fallbackGradient: "linear-gradient(135deg,#202020 0%,#343434 100%)",
     description:
       "Experience the best of both worlds with our Combination Brows service. Combining the precision of microblading with the softness of shading, we create meticulously crafted brows that mimic the appearance of natural hair strokes, enhanced with subtle shading for added depth and fullness.",
     items: [
@@ -103,7 +103,7 @@ const SERVICES = [
     category: "Brow Services",
     name: "NANO BROWS",
     image: "/service_brows.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Nano Brows is a cosmetic tattoo technique that uses a single needle to create super-fine, realistic hair strokes. It is the most precise brow tattooing option available, suitable for all skin types.",
     items: [
@@ -115,7 +115,7 @@ const SERVICES = [
     category: "Brow Services",
     name: "EYEBROW LAMINATION",
     image: "/service_brows.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Revel in the ultimate brow transformation with our Eyebrow Lamination service. In this meticulous process, your brows are expertly shape-corrected, set in place, and tinted to create a beautifully full, defined, and feathered look that lasts.",
     items: [
@@ -128,7 +128,7 @@ const SERVICES = [
     category: "Lip Blush",
     name: "LIP BLUSHING",
     image: "/service_lipblush.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "At Permanent Makeup Studio we create the best lip blush tattoos in NYC. Lip Blush Tattoo is a great way to enhance your natural lips. Lip Blush is a cosmetic tattoo that can be used to balance symmetry, increase the appearance of the lip size, camouflage scars on the lip tissue, change the color of the lips, and create a more youthful lip appearance. Lip Blush is a natural looking enhancement.",
     items: [
@@ -144,7 +144,7 @@ const SERVICES = [
     category: "SMP & Facials",
     name: "FACIALS",
     image: "/service_lashes.png",
-    fallbackGradient: "linear-gradient(135deg,#1a0828 0%,#2a0a3a 100%)",
+    fallbackGradient: "linear-gradient(135deg,#202020 0%,#343434 100%)",
     description:
       "Indulge in a rejuvenating journey for your skin with our meticulously curated facial services. Reveal clear, healthy skin and neck tightening treatments custom-tailored to your unique skincare needs.",
     items: [
@@ -159,7 +159,7 @@ const SERVICES = [
     category: "SMP & Facials",
     name: "SMP — SCALP MICROPIGMENTATION",
     image: "/smp_before.png",
-    fallbackGradient: "linear-gradient(135deg,#1a0828 0%,#2a0a3a 100%)",
+    fallbackGradient: "linear-gradient(135deg,#202020 0%,#343434 100%)",
     description:
       "For those with male-pattern baldness who decide to shave their head and don't want the typical balding horseshoe pattern visible, SMP can create the appearance of a full head of hair. SMP is also a valuable tool to complete the appearance of hair transplant procedures.",
     items: [
@@ -178,7 +178,7 @@ const SERVICES = [
     category: "Spray Tans / Waxing",
     name: "CUSTOM SPRAY TANS",
     image: "/service_lipblush.png",
-    fallbackGradient: "linear-gradient(135deg,#1a0828 0%,#2a0a3a 100%)",
+    fallbackGradient: "linear-gradient(135deg,#202020 0%,#343434 100%)",
     description:
       "Loaded with moisturizing, firming, anti-aging ingredients in the solution! Includes a detailed consultation with one of our certified estheticians. We evaluate your needs such as desired color, your skin type, and any upcoming event that you may be getting ready for! ZERO Orange undertones leaving you with a GOLDEN TAN.",
     items: [
@@ -191,7 +191,7 @@ const SERVICES = [
     category: "Spray Tans / Waxing",
     name: "SUGAR WAXING",
     image: "/service_brows.png",
-    fallbackGradient: "linear-gradient(135deg,#1a0828 0%,#2a0a3a 100%)",
+    fallbackGradient: "linear-gradient(135deg,#202020 0%,#343434 100%)",
     description:
       "Indulge in the gentle art of hair removal with our Sugar Waxing service, a method that not only leaves your skin irresistibly smooth but also embraces the natural simplicity of its ingredients. Our expert aestheticians use a specially crafted paste made from lemon, sugar, and water, heated and cooled to perfection. Sugar Waxing pulls hair from the roots, leaving your skin silky and hair-free for an extended period. The unique sugar paste is applied lukewarm, eliminating the risk of burns associated with traditional waxing. Experience the difference as the coagulated paste adheres to the hair, not the skin, ensuring a gentle yet effective hair removal experience.",
     items: [
@@ -208,7 +208,7 @@ const SERVICES = [
     category: "Permanent Makeup",
     name: "SEMI-PERMANENT EYELINER",
     image: "/service_lashes.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Enhance the shape, color, and definition of your eyes with our semi-permanent eyeliner. Wake up every morning with perfectly defined eyes without the hassle of smudge-prone eyeliner pencils.",
     items: [
@@ -222,7 +222,7 @@ const SERVICES = [
     category: "Permanent Makeup",
     name: "CHEEK TINT TATTOO",
     image: "/service_lipblush.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Wake up with a natural, healthy glow. Cheek Tint Tattoo (blush tattoo) provides a soft, airbrushed wash of color to your cheeks, or add cute freckles and beauty marks for custom details.",
     items: [
@@ -238,7 +238,7 @@ const SERVICES = [
     category: "Add-ons Services",
     name: "ADD-ONS SERVICES",
     image: "/service_lashes.png",
-    fallbackGradient: "linear-gradient(135deg,#2a0a3a 0%,#1a0828 100%)",
+    fallbackGradient: "linear-gradient(135deg,#343434 0%,#202020 100%)",
     description:
       "Enhance your lash, brow, or lip experience with our premium add-on services, custom designed to complement your main treatments.",
     items: [
@@ -543,7 +543,7 @@ export default function ServicesPage({ onNavigate }) {
           minHeight: "420px",
           paddingTop: "200px",
           paddingBottom: "80px",
-          background: "linear-gradient(160deg, var(--bg-dark-purple) 0%, #0d0d12 60%, #120a1a 100%)",
+          background: "linear-gradient(160deg, var(--bg-dark-purple) 0%, #0d0d12 60%, #202020 100%)",
         }}
       >
         {/* Glow orbs */}
@@ -553,7 +553,7 @@ export default function ServicesPage({ onNavigate }) {
         />
         <div
           className="svc-hero-orb2 absolute rounded-full pointer-events-none"
-          style={{ width: 350, height: 350, bottom: -80, right: -60, background: "radial-gradient(circle,rgba(180,100,255,0.15) 0%,transparent 70%)" }}
+          style={{ width: 350, height: 350, bottom: -80, right: -60, background: "radial-gradient(circle,rgba(248,148,255,0.15) 0%,transparent 70%)" }}
         />
 
         <div className="container text-center relative z-10 px-6">
@@ -600,7 +600,7 @@ export default function ServicesPage({ onNavigate }) {
       <div
         className="svc-sticky-nav border-b w-full"
         style={{
-          backgroundColor: stickyNav ? "rgba(7,7,8,0.96)" : "rgba(14,6,20,0.92)",
+          backgroundColor: stickyNav ? "rgba(7,7,8,0.96)" : "rgba(32,32,32,0.92)",
           borderColor: "rgba(248,148,255,0.12)",
         }}
       >
@@ -722,7 +722,7 @@ export default function ServicesPage({ onNavigate }) {
           {/* ── Products Banner ── */}
           <div
             className="mt-[100px] text-center py-16 rounded-2xl relative overflow-hidden"
-            style={{ background: "linear-gradient(135deg,rgba(248,148,255,0.12) 0%,rgba(120,50,180,0.12) 100%)", border: "1px solid rgba(248,148,255,0.2)" }}
+            style={{ background: "linear-gradient(135deg,rgba(248,148,255,0.12) 0%,rgba(82,79,76,0.15) 100%)", border: "1px solid rgba(248,148,255,0.2)" }}
           >
             <div
               className="absolute inset-0 pointer-events-none"

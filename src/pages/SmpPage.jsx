@@ -362,7 +362,7 @@ export default function SmpPage({ onNavigate }) {
                 <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-[#F894FF]/5 to-transparent rounded-bl-full z-0" />
                 
                 <div className="flex items-center justify-between mb-6 relative z-10">
-                  <span className="text-4xl font-extrabold text-[#F894FF]/30 group-hover:text-[#2a0a3a] transition-colors duration-300">0{idx + 1}</span>
+                  <span className="text-4xl font-extrabold text-[#F894FF]/30 group-hover:text-[#343434] transition-colors duration-300">0{idx + 1}</span>
                   <div className="flex items-center gap-1 text-[11px] font-bold uppercase tracking-wider py-1 px-2.5 rounded bg-[#F894FF]/10 border border-[#F894FF]/20 text-[#0F0F12]">
                     <Clock className="w-3.5 h-3.5 text-[#F894FF]" />
                     {step.duration}
@@ -550,7 +550,7 @@ export default function SmpPage({ onNavigate }) {
       </section>
 
       {/* ── CALL TO ACTION BANNER ── */}
-      <section className="py-24 px-0 sm:px-6 bg-gradient-to-r from-[#121216] via-[#2a0a3a]/40 to-[#121216] border-t border-white/5 relative overflow-hidden">
+      <section className="py-24 px-0 sm:px-6 bg-gradient-to-r from-[#121216] via-[#343434]/40 to-[#121216] border-t border-white/5 relative overflow-hidden">
         <div className="absolute inset-0 bg-[#F894FF]/2.5 blur-3xl z-0" />
         <div className="container max-w-4xl mx-auto text-center relative z-10">
           <h2 className="text-4xl md:text-6xl font-bold tracking-wide" style={{ fontFamily: "Staatliches, sans-serif", marginBottom: "20px" }}>

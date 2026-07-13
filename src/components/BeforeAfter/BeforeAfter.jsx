@@ -67,8 +67,8 @@ function BeforeAfterCard({ item }) {
                     style={{
                         left: `${sliderPosition}%`,
                         transform: "translateX(-50%)",
-                        background: "linear-gradient(180deg, var(--primary-pink) 0%, rgba(248,148,255,0.3) 100%)",
-                        boxShadow: "0 0 10px rgba(248,148,255,0.6)",
+                        background: "linear-gradient(180deg, var(--primary-pink) 0%, rgba(32,32,32,0.3) 100%)",
+                        boxShadow: "0 0 10px rgba(32,32,32,0.4)",
                     }}
                 >
                     {/* Floating Handle */}
@@ -119,7 +119,7 @@ function BeforeAfterCard({ item }) {
                     }}
                     onMouseEnter={e => {
                         e.currentTarget.style.backgroundColor = "var(--primary-pink)";
-                        e.currentTarget.style.color = "#0b0b0e";
+                        e.currentTarget.style.color = "#ffffff";
                     }}
                     onMouseLeave={e => {
                         e.currentTarget.style.backgroundColor = "transparent";
@@ -137,7 +137,7 @@ function BeforeAfter() {
     return (
         <>
             <style>{`
-                .ba-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(248,148,255,0.12) !important; border-color: rgba(248,148,255,0.35) !important; }
+                .ba-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(32,32,32,0.12) !important; border-color: rgba(197,189,182,0.35) !important; }
                 .ba-label-before {
                     position: absolute;
                     top: 12px; left: 12px;
@@ -156,7 +156,7 @@ function BeforeAfter() {
                     top: 12px; right: 12px;
                     z-index: 4;
                     background: var(--primary-pink);
-                    color: #0b0b0e;
+                    color: #ffffff;
                     font-size: 10px;
                     font-weight: 700;
                     letter-spacing: 1.5px;

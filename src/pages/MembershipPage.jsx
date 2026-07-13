@@ -232,7 +232,7 @@ function MembershipPage({ onNavigate }) {
                                 {price.type}
                               </span>
                               {price.label && (
-                                <span className="text-[9px] font-bold text-[#D946EF] px-1.5 py-0.5 rounded bg-[#D946EF]/10 font-mono">
+                                <span className="text-[9px] font-bold text-[#F894FF] px-1.5 py-0.5 rounded bg-[#F894FF]/10 font-mono">
                                   {price.label}
                                 </span>
                               )}
@@ -249,7 +249,7 @@ function MembershipPage({ onNavigate }) {
                       <div className="space-y-2.5 pt-4">
                         {membership.features.map((feature, idx) => (
                           <div key={idx} className="flex gap-2.5 items-start">
-                            <Check className="w-4 h-4 text-[#D946EF] shrink-0 mt-0.5" />
+                            <Check className="w-4 h-4 text-[#F894FF] shrink-0 mt-0.5" />
                             <span className="text-xs sm:text-sm text-gray-800 leading-snug">
                               {feature}
                             </span>

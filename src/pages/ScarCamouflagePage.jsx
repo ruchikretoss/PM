@@ -376,7 +376,7 @@ function ScarCamouflagePage({ onNavigate }) {
               <div key={idx} className="relative group">
 
                 {/* Step circle indicator */}
-                <div className="absolute -left-[50px] md:-left-[56px] top-0 w-10 h-10 rounded-full border border-[#F894FF]/30 bg-[#121216] flex items-center justify-center group-hover:bg-[#2a0a3a] group-hover:border-[#F894FF]/90 transition-colors duration-300">
+                <div className="absolute -left-[50px] md:-left-[56px] top-0 w-10 h-10 rounded-full border border-[#F894FF]/30 bg-[#121216] flex items-center justify-center group-hover:bg-[#343434] group-hover:border-[#F894FF]/90 transition-colors duration-300">
                   <span className="text-xs font-bold text-[#F894FF]">{step.num}</span>
                 </div>
 
@@ -583,7 +583,7 @@ function ScarCamouflagePage({ onNavigate }) {
       </section>
 
       {/* ── 9. CALL TO ACTION ── */}
-      <section className="py-24 px-0 sm:px-6 bg-gradient-to-r from-[#121216] via-[#2a0a3a]/40 to-[#121216] border-t border-white/5 relative overflow-hidden">
+      <section className="py-24 px-0 sm:px-6 bg-gradient-to-r from-[#121216] via-[#343434]/40 to-[#121216] border-t border-white/5 relative overflow-hidden">
         <div className="absolute inset-0 bg-[#F894FF]/2.5 blur-3xl z-0" />
         <div className="container max-w-4xl mx-auto text-center relative z-10">
           <h2

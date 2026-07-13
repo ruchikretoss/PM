@@ -12,7 +12,7 @@ function PaymentBanner() {
                     position: relative;
                     width: 100%;
                     height: 100%;
-                    background: linear-gradient(135deg, #121216 0%, #1D1D26 100%);
+                    background: linear-gradient(135deg, #121216 0%, #343434 100%);
                     border: 1px solid rgba(255,255,255,0.08);
                     border-radius: 16px;
                     padding: 24px;
@@ -141,7 +141,7 @@ function PaymentBanner() {
                                 <li key={text} className="flex items-center gap-3">
                                     <span
                                         className="text-base"
-                                        style={{ color: "var(--primary-pink)", textShadow: "0 0 10px rgba(248,148,255,0.4)" }}
+                                        style={{ color: "var(--primary-pink)", textShadow: "0 0 10px rgba(197, 189, 182, 0.4)" }}
                                     >✦</span>
                                     <span
                                         className="text-[15px]"

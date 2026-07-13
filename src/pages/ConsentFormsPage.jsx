@@ -61,7 +61,7 @@ function ConsentFormsPage({ onNavigate }) {
         {/* Glow decorations */}
         <div className="absolute inset-0 bg-[#F894FF]/[0.03] blur-3xl z-0" />
         <div className="absolute top-10 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-gradient-radial from-[#F894FF]/10 to-transparent rounded-full blur-3xl z-0" />
-        <div className="absolute bottom-0 right-0 w-72 h-72 bg-gradient-to-t from-[#D946EF]/5 to-transparent rounded-full blur-3xl z-0" />
+        <div className="absolute bottom-0 right-0 w-72 h-72 bg-gradient-to-t from-[#F894FF]/5 to-transparent rounded-full blur-3xl z-0" />
 
         <div className="container max-w-4xl mx-auto relative z-10 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 mb-6">
@@ -120,11 +120,11 @@ function ConsentFormsPage({ onNavigate }) {
                     style={{ background: "linear-gradient(135deg, #ffe7e8 0%, #ffffff 100%)" }}
                   >
                     <div className="flex items-center gap-5 min-w-0">
-                      <span className="text-[10px] font-bold tracking-[2px] text-[#D946EF] uppercase shrink-0 font-mono">
+                      <span className="text-[10px] font-bold tracking-[2px] text-[#F894FF] uppercase shrink-0 font-mono">
                         ES — 0{index + 1}
                       </span>
                       <div className="min-w-0">
-                        <h3 className="text-[#0F0F12] text-xs sm:text-sm font-bold uppercase tracking-[1px] leading-snug group-hover:text-[#D946EF] transition-colors duration-300"
+                        <h3 className="text-[#0F0F12] text-xs sm:text-sm font-bold uppercase tracking-[1px] leading-snug group-hover:text-[#F894FF] transition-colors duration-300"
                           style={{ fontFamily: "var(--font-accent)" }}
                         >
                           {form.name}
@@ -134,7 +134,7 @@ function ConsentFormsPage({ onNavigate }) {
                         </p>
                       </div>
                     </div>
-                    <ArrowRight className="w-4 h-4 text-gray-700 group-hover:text-[#D946EF] shrink-0 transition-transform duration-300 transform group-hover:translate-x-1.5" />
+                    <ArrowRight className="w-4 h-4 text-gray-700 group-hover:text-[#F894FF] shrink-0 transition-transform duration-300 transform group-hover:translate-x-1.5" />
                   </a>
                 ))}
               </div>
@@ -173,16 +173,16 @@ function ConsentFormsPage({ onNavigate }) {
                     style={{ background: "linear-gradient(135deg, #ffe7e8 0%, #ffffff 100%)" }}
                   >
                     <div className="flex items-center gap-5 min-w-0">
-                      <span className="text-[10px] font-bold tracking-[2px] text-[#D946EF] uppercase shrink-0 font-mono">
+                      <span className="text-[10px] font-bold tracking-[2px] text-[#F894FF] uppercase shrink-0 font-mono">
                         EN — 0{index + 1}
                       </span>
-                      <h3 className="text-[#0F0F12] text-xs sm:text-sm font-bold uppercase tracking-[1px] leading-snug group-hover:text-[#D946EF] transition-colors duration-300"
+                      <h3 className="text-[#0F0F12] text-xs sm:text-sm font-bold uppercase tracking-[1px] leading-snug group-hover:text-[#F894FF] transition-colors duration-300"
                         style={{ fontFamily: "var(--font-accent)" }}
                       >
                         {form.name}
                       </h3>
                     </div>
-                    <ArrowRight className="w-4 h-4 text-gray-700 group-hover:text-[#D946EF] shrink-0 transition-transform duration-300 transform group-hover:translate-x-1.5" />
+                    <ArrowRight className="w-4 h-4 text-gray-700 group-hover:text-[#F894FF] shrink-0 transition-transform duration-300 transform group-hover:translate-x-1.5" />
                   </a>
                 ))}
               </div>

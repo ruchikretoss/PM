@@ -3,14 +3,15 @@ function ChatWidget() {
         <>
             <style>{`
                 @keyframes pulseChatGlow {
-                    0%   { box-shadow: 0 4px 20px rgba(248, 148, 255, 0.4); }
-                    50%  { box-shadow: 0 4px 30px rgba(248, 148, 255, 0.8); }
-                    100% { box-shadow: 0 4px 20px rgba(248, 148, 255, 0.4); }
+                    0%   { box-shadow: 0 4px 20px rgba(197, 189, 182, 0.4); }
+                    50%  { box-shadow: 0 4px 30px rgba(197, 189, 182, 0.8); }
+                    100% { box-shadow: 0 4px 20px rgba(197, 189, 182, 0.4); }
                 }
                 .chat-widget-btn:hover {
                     transform: scale(1.1) translateY(-4px);
+                    color:var(--bg-dark);
                     background-color: var(--primary-pink-hover) !important;
-                    box-shadow: 0 8px 25px rgba(248, 148, 255, 0.6) !important;
+                    box-shadow: 0 8px 25px rgba(197, 189, 182, 0.6) !important;
                 }
             `}</style>
 
@@ -29,8 +30,7 @@ function ChatWidget() {
                 "
                 style={{
                     backgroundColor: "var(--primary-pink)",
-                    color: "var(--bg-dark)",
-                    boxShadow: "0 4px 20px rgba(248, 148, 255, 0.4)",
+                    boxShadow: "0 4px 20px rgba(197, 189, 182, 0.4)",
                     animation: "pulseChatGlow 3s infinite",
                     transitionTimingFunction: "cubic-bezier(0.4, 0, 0.2, 1)",
                 }}

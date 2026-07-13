@@ -11,13 +11,13 @@ function Hero() {
                     to   { opacity: 1; transform: scale(1) translate(0, 0); }
                 }
                 @keyframes neonTextPulse {
-                    0%   { text-shadow: 0 0 4px rgba(248, 148, 255, 0.2), 0 0 8px rgba(248, 148, 255, 0.1); }
-                    100% { text-shadow: 0 0 15px rgba(248, 148, 255, 0.8), 0 0 30px rgba(248, 148, 255, 0.4); }
+                    0%   { text-shadow: 0 0 4px rgba(197, 189, 182, 0.2), 0 0 8px rgba(197, 189, 182, 0.1); }
+                    100% { text-shadow: 0 0 15px rgba(197, 189, 182, 0.8), 0 0 30px rgba(197, 189, 182, 0.4); }
                 }
                 @keyframes pulseBtn {
-                    0% { box-shadow: 0 4px 15px rgba(248, 148, 255, 0.2); }
-                    50% { box-shadow: 0 4px 25px rgba(248, 148, 255, 0.5); }
-                    100% { box-shadow: 0 4px 15px rgba(248, 148, 255, 0.2); }
+                    0% { box-shadow: 0 4px 15px rgba(197, 189, 182, 0.2); }
+                    50% { box-shadow: 0 4px 25px rgba(197, 189, 182, 0.5); }
+                    100% { box-shadow: 0 4px 15px rgba(197, 189, 182, 0.2); }
                 }
 
                 .hero-tagline-anim {
@@ -41,10 +41,10 @@ function Hero() {
 
                 /* Button hover — can't do CSS-var-based hover in Tailwind */
                 .hero-outline-btn:hover {
-                    background-color: var(--primary-pink) !important;
-                    color: var(--bg-dark) !important;
+                    background-color: #ffffff !important;
+                    color: #202020 !important;
                     transform: translateY(-4px) !important;
-                    box-shadow: 0 8px 25px var(--primary-pink-glow) !important;
+                    box-shadow: 0 8px 25px rgba(255, 255, 255, 0.25) !important;
                 }
                 .hero-outline-btn:hover .hero-arrow {
                     transform: translateX(6px);
@@ -62,7 +62,7 @@ function Hero() {
                     style={{
                         background: `
                             linear-gradient(90deg, rgba(11,11,14,1) 0%, rgba(11,11,14,0.9) 35%, rgba(11,11,14,0.2) 70%, rgba(11,11,14,0.7) 100%),
-                            linear-gradient(0deg, rgba(26,10,38,0.9) 0%, rgba(11,11,14,0) 50%)
+                            linear-gradient(0deg, rgba(32,32,32,0.9) 0%, rgba(11,11,14,0) 50%)
                         `,
                     }}
                 />
@@ -72,7 +72,7 @@ function Hero() {
                     style={{
                         background: `
                             linear-gradient(90deg, rgba(11,11,14,0.95) 0%, rgba(11,11,14,0.9) 45%, rgba(11,11,14,0.4) 75%, rgba(11,11,14,0.9) 100%),
-                            linear-gradient(0deg, rgba(26,10,38,0.7) 0%, rgba(11,11,14,0) 50%)
+                            linear-gradient(0deg, rgba(32,32,32,0.7) 0%, rgba(11,11,14,0) 50%)
                         `,
                     }}
                 />
@@ -81,7 +81,7 @@ function Hero() {
                     className="absolute inset-0 z-[1] hidden max-md:block"
                     style={{
                         background:
-                            "linear-gradient(0deg, rgba(26,10,38,0.9) 0%, rgba(11,11,14,0.95) 100%)",
+                            "linear-gradient(0deg, rgba(32,32,32,0.9) 0%, rgba(11,11,14,0.95) 100%)",
                     }}
                 />
 
@@ -103,7 +103,7 @@ function Hero() {
 
                         {/* Tagline */}
                         <span
-                            className="font-[var(--font-accent)] text-[var(--primary-pink)] text-[13px] font-bold tracking-[3px] uppercase mb-6 inline-block opacity-0 hero-tagline-anim"
+                            className="font-[var(--font-accent)] text-[#c5bdb6] text-[13px] font-bold tracking-[3px] uppercase mb-6 inline-block opacity-0 hero-tagline-anim"
                         >
                             THE PERMANENT MAKEUP STUDIO
                         </span>
@@ -114,17 +114,17 @@ function Hero() {
                             style={{ textShadow: "0 4px 20px rgba(0,0,0,0.6)" }}
                         >
                             BEAUTY THAT{" "}
-                            <span className="text-[var(--primary-pink)] hero-neon-pulse">LASTS</span>
+                            <span className="text-white hero-neon-pulse">LASTS</span>
                             <br />
                             STYLE THATS{" "}
-                            <span className="text-[var(--primary-pink)] hero-neon-pulse">TIMELESS</span>
+                            <span className="text-white hero-neon-pulse">TIMELESS</span>
                         </h1>
 
                         {/* CTA */}
                         <div className="opacity-0 hero-cta-anim mt-[20px]">
                             <a
                                 href="#services"
-                                className="hero-outline-btn inline-flex items-center justify-center bg-[rgba(11,11,14,0.6)] backdrop-blur-[8px] text-[var(--primary-pink)] font-[var(--font-accent)] font-bold text-[12px] uppercase tracking-[1.5px] no-underline px-9 py-[10px] rounded-[30px] border-2 border-[var(--primary-pink)] shadow-[0_4px_15px_rgba(248,148,255,0.2)] transition-all duration-300 max-md:w-full"
+                                className="hero-outline-btn inline-flex items-center justify-center bg-[rgba(11,11,14,0.6)] backdrop-blur-[8px] text-white font-[var(--font-accent)] font-bold text-[12px] uppercase tracking-[1.5px] no-underline px-9 py-[10px] rounded-[30px] border-2 border-white shadow-[0_4px_15px_rgba(255,255,255,0.1)] transition-all duration-300 max-md:w-full"
                                 style={{ transitionTimingFunction: "cubic-bezier(0.4,0,0.2,1)" }}
                             >
                                 LEARN MORE ABOUT OUR SERVICES

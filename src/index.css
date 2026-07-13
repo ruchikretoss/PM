@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --primary-pink: #F894FF;
-  --primary-pink-hover: #ff5ef1;
-  --primary-pink-glow: rgba(248, 148, 255, 0.4);
+  --primary-pink: #202020;
+  --primary-pink-hover: #ffffff;
+  --primary-pink-glow: rgba(32, 32, 32, 0.4);
 
   --bg-dark: #0B0B0E;
-  --bg-dark-purple: linear-gradient(135deg, #0B0B0E 0%, #1A0A26 100%);
+  --bg-dark-purple: linear-gradient(135deg, #0B0B0E 0%, #202020 100%);
   --bg-light: #FFFFFF;
   --bg-cream: #FAF5EA;
   --bg-gradient: linear-gradient(180deg, #0a0a0a 0%, #ffe7e8 -0.888779%, #ffffff 50.69964791911167%, #ffe7e8 96.22641509433963%, #0a0a0a 200%);
@@ -19,7 +19,7 @@
 
   --border-light: rgba(0, 0, 0, 0.06);
   --border-dark: rgba(255, 255, 255, 0.06);
-  --border-pink: rgba(248, 148, 255, 0.25);
+  --border-pink: rgba(32, 32, 32, 0.25);
 
   --shadow-light: 0 10px 30px rgba(0, 0, 0, 0.04);
   --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.45);
@@ -101,7 +101,7 @@ h6 {
   align-items: center;
   justify-content: center;
   background-color: var(--primary-pink);
-  color: var(--bg-dark);
+  color: #ffffff;
   font-family: var(--font-accent);
   font-weight: 700;
   text-decoration: none;
@@ -116,10 +116,11 @@ h6 {
 }
 
 .btn-primary:hover {
-  background-color: var(--primary-pink-hover);
-  border-color: var(--primary-pink-hover);
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #202020;
   transform: translateY(-3px);
-  box-shadow: 0 0 18px var(--primary-pink-glow);
+  box-shadow: 0 0 18px rgba(255, 255, 255, 0.2);
 }
 
 .btn-secondary {
@@ -143,7 +144,7 @@ h6 {
 
 .btn-secondary:hover {
   background-color: var(--primary-pink);
-  color: var(--bg-dark);
+  color: #ffffff;
   transform: translateY(-3px);
   box-shadow: 0 0 18px var(--primary-pink-glow);
 }

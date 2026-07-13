@@ -11,15 +11,15 @@ function Specialities() {
             <style>{`
                 .spec-card:hover {
                     transform: translateY(-8px);
-                    border-color: rgba(248,148,255,0.4) !important;
-                    box-shadow: 0 10px 30px rgba(248,148,255,0.1) !important;
+                    border-color: rgba(197,189,182,0.4) !important;
+                    box-shadow: 0 10px 30px rgba(197,189,182,0.1) !important;
                 }
                 .spec-card:hover .spec-overlay {
-                    background: linear-gradient(180deg, rgba(248,148,255,0.05) 0%, rgba(7,7,8,0.95) 100%);
+                    background: linear-gradient(180deg, rgba(197,189,182,0.05) 0%, rgba(7,7,8,0.95) 100%);
                 }
                 .spec-card:hover .spec-btn {
-                    background-color: var(--primary-pink) !important;
-                    color: var(--bg-dark) !important;
+                    background-color: var(--primary-pink-hover) !important;
+                    color: var(--primary-pink) !important;
                     border-color: var(--primary-pink) !important;
                     box-shadow: 0 0 15px var(--primary-pink-glow) !important;
                 }
@@ -40,8 +40,8 @@ function Specialities() {
                             className="text-[28px] max-[575px]:text-[22px] mb-3 tracking-[1px]"
                             style={{
                                 fontFamily: "var(--font-title)",
-                                color: "var(--primary-pink)",
-                                textShadow: "0 0 10px rgba(248,148,255,0.4)",
+                                color: "#ffffff",
+                                textShadow: "0 0 10px rgba(197,189,182,0.4)",
                             }}
                         >
                             VOTED TAMPA BAY&apos;S #1 PERMANENT MAKEUP ARTIST!

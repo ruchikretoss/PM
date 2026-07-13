@@ -156,7 +156,7 @@ function FAQ() {
                                         </button>
 
                                         {/* Answer */}
-                                        <div className={`faq-answer ${isOpen ? "expanded" : ""}`} style={{ backgroundColor: "#FAF9F6" }}>
+                                        <div className={`faq-answer ${isOpen ? "expanded" : ""}`}>
                                             <div
                                                 className="p-6 border-t"
                                                 style={{ borderColor: "var(--border-light)" }}

@@ -18,7 +18,7 @@ function ServicesGallery() {
                 .gal-card:hover .gal-overlay { opacity: 1; }
                 .gal-card:hover .gal-title,
                 .gal-card:hover .gal-btn { transform: translateY(0) !important; }
-                .gal-btn:hover { background-color: var(--primary-pink) !important; color: var(--bg-dark) !important; box-shadow: 0 0 15px var(--primary-pink-glow); }
+                .gal-btn:hover { background-color: #ffffff !important; color: #202020 !important; box-shadow: 0 0 15px rgba(255,255,255,0.2) !important; }
             `}</style>
 
             <section
@@ -78,8 +78,8 @@ function ServicesGallery() {
                                             className="gal-btn inline-block font-bold text-[11px] tracking-[1px] no-underline rounded-[30px] px-[18px] py-[6px] bg-transparent transition-all duration-300"
                                             style={{
                                                 fontFamily: "var(--font-accent)",
-                                                color: "var(--primary-pink)",
-                                                border: "1.5px solid var(--primary-pink)",
+                                                color: "#ffffff",
+                                                border: "1.5px solid #ffffff",
                                                 transform: "translateY(20px)",
                                                 transition: "transform 0.4s cubic-bezier(0.2,0.8,0.2,1) 0.05s, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease",
                                             }}

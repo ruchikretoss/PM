@@ -43,8 +43,8 @@ function EyelashServices() {
                     background: linear-gradient(180deg, rgba(248,148,255,0.05) 0%, rgba(11,11,14,0.9) 100%);
                 }
                 .lash-card:hover .lash-btn {
-                    background-color: var(--primary-pink) !important;
-                    color: var(--bg-dark) !important;
+                    background-color: var(--bg-dark) !important;
+                    color: var(--primary-pink-hover) !important;
                     border-color: var(--primary-pink) !important;
                     box-shadow: 0 0 15px var(--primary-pink-glow) !important;
                 }

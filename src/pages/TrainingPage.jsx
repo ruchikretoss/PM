@@ -299,7 +299,7 @@ function TrainingPage({ onNavigate }) {
                         SECURE DEPOSIT
                       </span>
                       <div className="border-b border-dotted border-black/30 grow mx-2 h-1" />
-                      <span className="text-lg font-black text-[#D946EF] font-mono leading-none">
+                      <span className="text-lg font-black text-[#F894FF] font-mono leading-none">
                         {activeCourse.deposit}
                       </span>
                     </div>

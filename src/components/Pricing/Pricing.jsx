@@ -79,7 +79,6 @@ function Pricing() {
                         transition: isOpen
                             ? "max-height 0.3s cubic-bezier(1,0,1,0)"
                             : "max-height 0.3s cubic-bezier(0,1,0,1)",
-                        backgroundColor: "#FAF9F6",
                     }}
                 >
                     <div
@@ -96,10 +95,18 @@ function Pricing() {
                             href="https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services"
                             target="_blank"
                             rel="noreferrer"
-                            className="text-[12px] font-bold underline tracking-[1px] transition-colors duration-300"
-                            style={{ fontFamily: "var(--font-accent)", color: "var(--primary-pink)" }}
-                            onMouseEnter={e => e.currentTarget.style.color = "var(--primary-pink-hover)"}
-                            onMouseLeave={e => e.currentTarget.style.color = "var(--primary-pink)"}
+                            className="text-[11px] font-bold tracking-[1px] no-underline px-4 py-[6px] rounded-[20px] border border-[#202020] transition-all duration-300 inline-block"
+                            style={{ fontFamily: "var(--font-accent)", color: "#202020", backgroundColor: "transparent" }}
+                            onMouseEnter={e => {
+                                e.currentTarget.style.backgroundColor = "#202020";
+                                e.currentTarget.style.color = "#ffffff";
+                                e.currentTarget.style.transform = "translateY(-3px)";
+                            }}
+                            onMouseLeave={e => {
+                                e.currentTarget.style.backgroundColor = "transparent";
+                                e.currentTarget.style.color = "#202020";
+                                e.currentTarget.style.transform = "translateY(0)";
+                            }}
                         >
                             BOOK NOW
                         </a>
@@ -112,8 +119,8 @@ function Pricing() {
     return (
         <>
             <style>{`
-                .acc-item:hover { border-color: rgba(248,148,255,0.4) !important; transform: translateY(-2px); }
-                .acc-item.acc-open { border-color: var(--primary-pink) !important; box-shadow: 0 8px 25px rgba(248,148,255,0.1) !important; }
+                .acc-item:hover { border-color: rgba(197,189,182,0.4) !important; transform: translateY(-2px); }
+                .acc-item.acc-open { border-color: var(--primary-pink) !important; box-shadow: 0 8px 25px rgba(32,32,32,0.1) !important; }
             `}</style>
 
             <section
