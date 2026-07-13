@@ -148,7 +148,7 @@ function MembershipPage({ onNavigate }) {
       <section className="py-20 px-4 sm:px-6 relative z-10 bg-[#070708]">
         <div className="container max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-            
+
             {/* LEFT COLUMN: Visual Showcase Image */}
             <div className="lg:col-span-5 space-y-6 lg:sticky lg:top-[120px] text-left">
               <div className="relative rounded-3xl overflow-hidden border border-white/10 aspect-[4/5] shadow-2xl group">
@@ -158,7 +158,7 @@ function MembershipPage({ onNavigate }) {
                   alt="Lash Extension Portrait"
                   className="absolute inset-0 w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
                 />
-                
+
                 {/* Decorative text badge on image */}
                 <div className="absolute bottom-8 left-8 right-8 z-20 space-y-2">
                   <span className="text-[10px] font-bold tracking-[3px] text-[#F894FF] uppercase">
