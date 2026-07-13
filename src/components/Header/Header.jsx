@@ -124,7 +124,7 @@ function Header({ currentPage, onNavigate }) {
 
                 /* Dropdown links */
                 .hdr-dropdown-link { display: block; font-size: 13px; font-weight: 500; color: var(--text-light); padding: 8px 24px; transition: all 0.2s ease; text-decoration: none; text-align: left; }
-                .hdr-dropdown-link:hover { background-color: rgba(197,189,182,0.08); color: var(--primary-pink) !important; padding-left: 28px; }
+                .hdr-dropdown-link:hover { background-color: rgba(255,255,255,0.07); color: #ffffff !important; padding-left: 28px; }
 
                 /* Financing btn hover */
                 .hdr-financing-btn:hover { background-color: #ffffff !important; color: #202020 !important; box-shadow: 0 0 12px rgba(255, 255, 255, 0.2); }
