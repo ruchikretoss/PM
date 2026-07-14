@@ -20,12 +20,12 @@ function AboutUs() {
                 {/* ── Left: text column ── */}
                 <div className="flex flex-col items-start text-left">
                     <span className="section-subtitle">OUR STORY</span>
-                    <h2 className="section-title">ABOUT US</h2>
+                    <h2 className="section-title">About <span className="title-italic">Us</span></h2>
 
                     {/* Pink divider */}
                     <div
-                        className="w-[60px] h-[3px] my-4"
-                        style={{ backgroundColor: "var(--primary-pink)" }}
+                        className="w-[40px] h-[1.5px] my-4"
+                        style={{ backgroundColor: "var(--primary-pink)", opacity: 0.6 }}
                     />
 
                     {/* Est'd label */}

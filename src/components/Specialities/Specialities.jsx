@@ -34,8 +34,8 @@ function Specialities() {
                     {/* Header */}
                     <div className="text-center mb-12">
                         <span className="section-subtitle">OUR MAIN SERVICES</span>
-                        <h2 className="section-title max-[575px]:text-[36px]">OUR SPECIALITIES</h2>
-                        <div className="title-divider" />
+                        <h2 className="section-title max-[575px]:text-[36px]">Our <span className="title-italic">Specialities</span></h2>
+                        <div className="title-divider" style={{ backgroundColor:"#ffffff" }} />
                         <p
                             className="text-[28px] max-[575px]:text-[22px] mb-3 tracking-[1px]"
                             style={{

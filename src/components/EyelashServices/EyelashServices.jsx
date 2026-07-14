@@ -67,7 +67,7 @@ function EyelashServices() {
                     {/* Header */}
                     <div className="text-center mb-[60px]">
                         <span className="section-subtitle">OUR MAIN SERVICES</span>
-                        <h2 className="section-title">FOR EYELASHES</h2>
+                        <h2 className="section-title">For <span className="title-italic">Eyelashes</span></h2>
                         <div className="title-divider" />
                         <p className="section-description">
                             Experience one of our luxury services inside of our beautiful salon.

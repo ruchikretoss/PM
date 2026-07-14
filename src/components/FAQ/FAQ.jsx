@@ -67,7 +67,7 @@ function FAQ() {
                     {/* ── Left column ── */}
                     <div className="flex flex-col items-start text-left">
                         <span className="section-subtitle">WHY CHOOSE OUR SALON?</span>
-                        <h2 className="section-title">OUR DIFFERENCES</h2>
+                        <h2 className="section-title">Our <span className="title-italic">Differences</span></h2>
                         <div className="title-divider-left" />
 
                         <p

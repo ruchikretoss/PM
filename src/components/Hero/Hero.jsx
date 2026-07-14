@@ -61,8 +61,8 @@ function Hero() {
                     className="absolute inset-0 z-[1] max-[991px]:hidden"
                     style={{
                         background: `
-                            linear-gradient(90deg, rgba(11,11,14,1) 0%, rgba(11,11,14,0.9) 35%, rgba(11,11,14,0.2) 70%, rgba(11,11,14,0.7) 100%),
-                            linear-gradient(0deg, rgba(32,32,32,0.9) 0%, rgba(11,11,14,0) 50%)
+                            linear-gradient(90deg, rgba(32,32,32,1) 0%, rgba(32,32,32,0.9) 35%, rgba(32,32,32,0.2) 70%, rgba(32,32,32,0.7) 100%),
+                            linear-gradient(0deg, rgba(32,32,32,0.9) 0%, rgba(32,32,32,0) 50%)
                         `,
                     }}
                 />
@@ -71,8 +71,8 @@ function Hero() {
                     className="absolute inset-0 z-[1] hidden max-[991px]:block max-md:hidden"
                     style={{
                         background: `
-                            linear-gradient(90deg, rgba(11,11,14,0.95) 0%, rgba(11,11,14,0.9) 45%, rgba(11,11,14,0.4) 75%, rgba(11,11,14,0.9) 100%),
-                            linear-gradient(0deg, rgba(32,32,32,0.7) 0%, rgba(11,11,14,0) 50%)
+                            linear-gradient(90deg, rgba(32,32,32,0.95) 0%, rgba(32,32,32,0.9) 45%, rgba(32,32,32,0.4) 75%, rgba(32,32,32,0.9) 100%),
+                            linear-gradient(0deg, rgba(32,32,32,0.7) 0%, rgba(32,32,32,0) 50%)
                         `,
                     }}
                 />
@@ -81,7 +81,7 @@ function Hero() {
                     className="absolute inset-0 z-[1] hidden max-md:block"
                     style={{
                         background:
-                            "linear-gradient(0deg, rgba(32,32,32,0.9) 0%, rgba(11,11,14,0.95) 100%)",
+                            "linear-gradient(0deg, rgba(32,32,32,0.9) 0%, rgba(32,32,32,0.95) 100%)",
                     }}
                 />
 
@@ -110,14 +110,14 @@ function Hero() {
 
                         {/* Main heading */}
                         <h1
-                            className="text-[80px] max-[1199px]:text-[64px] max-[991px]:text-[52px] max-md:text-[40px] leading-[1.1] text-[var(--text-white)] mb-8 opacity-0 hero-title-anim"
+                            className="leading-[1.1] text-[var(--text-white)] mb-8 opacity-0 hero-title-anim"
                             style={{ textShadow: "0 4px 20px rgba(0,0,0,0.6)" }}
                         >
-                            BEAUTY THAT{" "}
-                            <span className="text-white hero-neon-pulse">LASTS</span>
+                            Beauty That{" "}
+                            <span className="text-white hero-neon-pulse hero-italic">lasts,</span>
                             <br />
-                            STYLE THATS{" "}
-                            <span className="text-white hero-neon-pulse">TIMELESS</span>
+                            Style That's{" "}
+                            <span className="text-white hero-neon-pulse hero-italic">timeless.</span>
                         </h1>
 
                         {/* CTA */}

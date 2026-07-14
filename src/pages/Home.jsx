@@ -16,7 +16,7 @@ import ChatWidget from "../components/ChatWidget/ChatWidget";
 
 function Home({ onNavigate }) {
     return (
-        <>
+        <div className="homepage-container">
             <Header currentPage="home" onNavigate={onNavigate} />
             <Hero />
             <PaymentBanner />
@@ -32,7 +32,7 @@ function Home({ onNavigate }) {
             <InfoBoxes />
             <Footer onNavigate={onNavigate} />
             <ChatWidget />
-        </>
+        </div>
     );
 }
 

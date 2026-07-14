@@ -99,10 +99,10 @@ function Footer({ onNavigate }) {
                             className="text-[40px] mb-4"
                             style={{ color: "var(--text-white)" }}
                         >
-                            CONTACT US
+                            Contact Us
                         </h2>
                         <p
-                            className="text-[15px] leading-[1.6] mb-7"
+                            className="text-[15px] leading-[1.6] mb-7 mt-3"
                             style={{ fontFamily: "var(--font-body)" }}
                         >
                             Feel free to reach out to us with your inquiries through either phone or email.

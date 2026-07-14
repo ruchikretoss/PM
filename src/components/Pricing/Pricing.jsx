@@ -132,7 +132,7 @@ function Pricing() {
                     {/* Header */}
                     <div className="text-center mb-14">
                         <span className="section-subtitle">WHAT WE OFFER</span>
-                        <h2 className="section-title">OUR PRICES</h2>
+                        <h2 className="section-title">Our <span className="title-italic">Prices</span></h2>
                         <div className="title-divider" />
                         <p className="section-description">
                             Experience our luxury Salon with our diverse services designed just for you.

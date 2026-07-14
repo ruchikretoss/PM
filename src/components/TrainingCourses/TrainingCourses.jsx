@@ -50,8 +50,8 @@ function TrainingCourses() {
                     {/* Header */}
                     <div className="text-center mb-12">
                         <span className="section-subtitle">CERTIFIED TRAINING COURSES</span>
-                        <h2 className="section-title">OUR TRAINING COURSES</h2>
-                        <div className="title-divider" />
+                        <h2 className="section-title">Training <span className="title-italic">Courses</span></h2>
+                        <div className="title-divider" style={{ backgroundColor:"#fff"}} />
                         <p className="section-description">
                             Experience Excellent Training in the following Courses:
                         </p>

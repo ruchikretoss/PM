@@ -76,10 +76,10 @@ function BeforeAfterCard({ item }) {
                         className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center shadow-lg border"
                         style={{
                             backgroundColor: "var(--primary-pink)",
-                            borderColor: "var(--bg-dark)",
+                            borderColor: "#ffffff",
                         }}
                     >
-                        <span className="text-[12px] font-bold select-none text-[#0B0B0E]">↔</span>
+                        <span className="text-[12px] font-bold select-none text-white">↔</span>
                     </div>
                 </div>
 
@@ -181,14 +181,13 @@ function BeforeAfter() {
                             REAL RESULTS
                         </span>
                         <h2
-                            className="text-[48px] max-[575px]:text-[34px] mb-3"
-                            style={{ fontFamily: "var(--font-title)", color: "var(--text-dark)" }}
+                            className="section-title mb-3"
+                            style={{ color: "var(--text-dark)" }}
                         >
-                            BEFORE &amp; AFTER
+                            Before &amp; <span className="title-italic">After</span>
                         </h2>
                         <div
-                            className="w-[60px] h-[3px] mx-auto mb-4"
-                            style={{ backgroundColor: "var(--primary-pink)" }}
+                            className="title-divider"
                         />
                         <p
                             className="text-base"

@@ -29,7 +29,7 @@ function ServicesGallery() {
                     {/* Header */}
                     <div className="text-center mb-[50px]">
                         <span className="section-subtitle" style={{ color: "var(--text-muted-dark)" }}>VISUAL GALLERY</span>
-                        <h2 className="section-title mt-[10px]" style={{ color: "var(--text-dark)" }}>SEE THE SERVICES WE OFFER</h2>
+                        <h2 className="section-title mt-[10px]" style={{ color: "var(--text-dark)" }}>Services <span className="title-italic">We Offer</span></h2>
                         <div className="title-divider" />
                     </div>
 
