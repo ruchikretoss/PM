@@ -89,7 +89,7 @@ function AppContent() {
       <Route path="/about" element={<AboutPage onNavigate={navigateTo} />} />
       <Route path="/services" element={<ServicesPage onNavigate={navigateTo} />} />
       <Route path="/services/:serviceName" element={<ServicesPage onNavigate={navigateTo} />} />
-      
+
       {/* Scalp Micropigmentation routes */}
       <Route path="/scalp-micropigmentation" element={<SmpPage onNavigate={navigateTo} />} />
       <Route path="/smp" element={<SmpPage onNavigate={navigateTo} />} />
