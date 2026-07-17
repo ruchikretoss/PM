@@ -8,7 +8,6 @@ import EyelashServices from "../components/EyelashServices/EyelashServices";
 import TrainingCourses from "../components/TrainingCourses/TrainingCourses";
 import AboutUs from "../components/AboutUs/AboutUs";
 import ServicesGallery from "../components/ServicesGallery/ServicesGallery";
-import BeforeAfter from "../components/BeforeAfter/BeforeAfter";
 import Marquee from "../components/Marquee/Marquee";
 import FAQ from "../components/FAQ/FAQ";
 import Footer from "../components/Footer/Footer";
@@ -26,7 +25,6 @@ function Home({ onNavigate }) {
             <TrainingCourses />
             <AboutUs />
             <ServicesGallery />
-            <BeforeAfter />
             <Marquee />
             <FAQ />
             <InfoBoxes />
