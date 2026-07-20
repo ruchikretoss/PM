@@ -1,19 +1,19 @@
 const GALLERY_ITEMS = [
-    { id: 1, title: "Eyelash Extensions",       image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/09/classic-eyelashes.png",   link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" },
-    { id: 2, title: "Professional Facials",      image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/facial.webp",              link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" },
-    { id: 3, title: "Lash Lift & Tint",          image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/lash_lift.webp",            link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" },
-    { id: 4, title: "Brow Lamination",           image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/Training_Brow.webp",        link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" },
-    { id: 5, title: "Lip Blush",                 image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/lip_blushing.webp",         link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" },
-    { id: 6, title: "Sugar Waxing",              image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/sugar_waxing_3.webp",       link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" },
-    { id: 7, title: "Scalp Micropigmentation",   image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/smp.webp",                  link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" },
-    { id: 8, title: "Volume Eyelash Extensions", image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/vol_eyelash.webp",          link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services" }
+    { id: 1, title: "Eyelash Extensions",       image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/09/classic-eyelashes.png",   link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services", height: "h-[380px] max-md:h-[300px]" },
+    { id: 2, title: "Professional Facials",      image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/facial.webp",              link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services", height: "h-[270px] max-md:h-[240px]" },
+    { id: 3, title: "Lash Lift & Tint",          image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/lash_lift.webp",            link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services", height: "h-[310px] max-md:h-[260px]" },
+    { id: 4, title: "Brow Lamination",           image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/Training_Brow.webp",        link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services", height: "h-[390px] max-md:h-[310px]" },
+    { id: 5, title: "Lip Blush",                 image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/lip_blushing.webp",         link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services", height: "h-[290px] max-md:h-[250px]" },
+    { id: 6, title: "Sugar Waxing",              image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/sugar_waxing_3.webp",       link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services", height: "h-[360px] max-md:h-[290px]" },
+    { id: 7, title: "Scalp Micropigmentation",   image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/smp.webp",                  link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services", height: "h-[280px] max-md:h-[230px]" },
+    { id: 8, title: "Volume Eyelash Extensions", image: "https://thepermanentmakeupstudios.com/wp-content/uploads/2024/04/vol_eyelash.webp",          link: "https://book.squareup.com/appointments/dm5kf9b233idwf/location/LTG1JPHB7YPMF/services", height: "h-[350px] max-md:h-[280px]" }
 ];
 
 function ServicesGallery() {
     return (
         <>
             <style>{`
-                .gal-card:hover { transform: translateY(-6px); box-shadow: 0 15px 30px rgba(248,148,255,0.15) !important; }
+                .gal-card:hover { transform: translateY(-6px); box-shadow: 0 15px 30px rgba(216,138,154,0.2) !important; }
                 .gal-card:hover .gal-img { transform: scale(1.08); }
                 .gal-card:hover .gal-overlay { opacity: 1; }
                 .gal-card:hover .gal-title,
@@ -33,12 +33,12 @@ function ServicesGallery() {
                         <div className="title-divider" />
                     </div>
 
-                    {/* Uniform 4-col grid — no spanning, no empty gaps */}
-                    <div className="grid grid-cols-4 max-[1200px]:grid-cols-3 max-[991px]:grid-cols-2 max-md:grid-cols-1 gap-6 max-[991px]:gap-5 max-md:gap-4">
+                    {/* Masonry Column Grid — Dynamic staggered heights */}
+                    <div className="columns-1 max-[767px]:columns-2 max-[1199px]:columns-3 columns-4 gap-6 space-y-6">
                         {GALLERY_ITEMS.map((item) => (
                             <div
                                 key={item.id}
-                                className="gal-card relative overflow-hidden rounded-xl cursor-pointer transition-all duration-[400ms] h-[280px] max-[991px]:h-[240px] max-md:h-[280px]"
+                                className={`gal-card break-inside-avoid relative overflow-hidden rounded-xl cursor-pointer transition-all duration-[400ms] w-full ${item.height}`}
                                 style={{
                                     boxShadow: "0 5px 15px rgba(0,0,0,0.04)",
                                     backgroundColor: "var(--bg-cream)",
